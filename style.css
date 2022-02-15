@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header style start */
+.header {
+  background-color: #562eff;
+}
+.header-title {
+  color: white;
+  font-family: "Festive", cursive;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+.nav-item {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  padding: 10px;
+}
+.nav-item:hover {
+  background-color: rgb(101, 97, 105);
+  padding: 10px;
+  border-radius: 10px;
+}
+/* header style end */
