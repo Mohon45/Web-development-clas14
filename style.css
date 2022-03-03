@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+}
 /* header style start */
 .header {
   background-color: #562eff;
@@ -20,7 +24,6 @@
 .nav {
   list-style: none;
   display: flex;
-  font-family: "Poppins", sans-serif;
 }
 .nav-item {
   text-decoration: none;
@@ -34,3 +37,56 @@
   border-radius: 10px;
 }
 /* header style end */
+
+/* top-players design start */
+
+.top-players {
+  width: 600px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+}
+.players-title {
+  color: #562eff;
+  margin-bottom: 20px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+.single-player {
+  display: flex;
+  align-items: center;
+}
+.single-player img {
+  width: 50px;
+}
+.single-player h4 {
+  margin-left: 10px;
+}
+/* top-players design end */
+
+/* latest Courses design start */
+.single-card {
+  width: 150px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+.single-card img {
+  width: 150px;
+}
+.single-card h4 {
+  width: 150px;
+  font-size: 15px;
+}
+
+.single-card h5 {
+  font-size: 12px;
+  color: #ed6b4f;
+  margin-top: 5px;
+}
+/* latest Courses design end */
