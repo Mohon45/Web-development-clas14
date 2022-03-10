@@ -70,6 +70,11 @@ body {
 /* top-players design end */
 
 /* latest Courses design start */
+.courses {
+  display: flex;
+  justify-content: space-around;
+}
+
 .single-card {
   width: 150px;
   border: 1px solid gray;
@@ -88,5 +93,22 @@ body {
   font-size: 12px;
   color: #ed6b4f;
   margin-top: 5px;
+}
+.filled {
+  color: goldenrod;
+}
+.blank-filled {
+  color: gray;
+}
+.duration {
+  display: flex;
+  align-items: center;
+  color: #ed6b4f;
+  background-color: #ffe4e8;
+  padding: 5px;
+  border-radius: 10px;
+}
+.duration h3 {
+  margin-left: 5px;
 }
 /* latest Courses design end */
